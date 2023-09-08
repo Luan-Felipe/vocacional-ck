@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Open_Sans, Noto_Sans_TC } from 'next/font/google'
-import Header from './header/header'
-import Footer from './footer/footer'
+import Header from './header/Header'
+import Footer from './footer/Footer'
 
 
 const open = Open_Sans({ subsets: ['latin'] })

@@ -1,10 +1,15 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Open_Sans, Noto_Sans_TC } from 'next/font/google'
+import Header from './header/header'
+import Footer from './footer/footer'
 
 
-const inter = Inter({ subsets: ['latin'] })
-
+const open = Open_Sans({ subsets: ['latin'] })
+const noto = Noto_Sans_TC({
+  subsets: ['latin'],
+  weight: '700'
+})
 export const metadata: Metadata = {
   title: 'Vocacional CK',
   description: 'Teste vocacional da Codigo Kid',
@@ -17,7 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}
+      <body className={open.className}>
+      <Header />
+        {children}
+      <Footer/>
       </body>
     </html>
   )

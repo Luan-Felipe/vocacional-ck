@@ -26,8 +26,8 @@ export default function Home() {
             <h2 className="font-bold text-4xl mt-20 text-gray-800">
               Como funciona o teste vocacional?
             </h2>
-            <div className="flex xl:flex-row mx-auto mt-16 mb-32 xl:w-4/5">
-              <div className="w-1/3 h-56 border border-gray-800 mx-3 text-left p-4">
+            <div className="flex flex-row flex-wrap mx-auto justify-center mt-16 mb-32 xl:w-5/6">
+              <div className="w-96 h-56 border border-gray-800 mx-1 text-left p-4 mb-2">
                 <div className="w-14 h-14 rounded-full bg-yellow-400 text-white font-noto font-bold justify-center text-4xl flex items-center mb-5">
                   1
                 </div>
@@ -39,7 +39,7 @@ export default function Home() {
                   definir seu perfil.
                 </p>
               </div>
-              <div className="w-1/3 h-56 border border-gray-800 mx-3 text-left p-4">
+              <div className="w-96 h-56 border border-gray-800 mx-1 text-left p-4 mb-2">
                 <div className="w-14 h-14 rounded-full bg-yellow-400 text-white font-noto font-bold justify-center text-4xl flex items-center mb-5">
                   2
                 </div>
@@ -51,7 +51,7 @@ export default function Home() {
                   quais as principais carreiras para você.
                 </p>
               </div>
-              <div className="w-1/3 h-56 border border-gray-800 mx-3 text-left p-4">
+              <div className="w-96 h-56 border border-gray-800 mx-1 text-left p-4 mb-2">
                 <div className="w-14 h-14 rounded-full bg-yellow-400 text-white font-noto font-bold justify-center text-4xl flex items-center mb-5">
                   3
                 </div>

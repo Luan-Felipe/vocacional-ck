@@ -1,5 +1,7 @@
 import Link from "next/link";
-import Card from "./card/Card";
+import Card from "./card/Card.jsx";
+import { Children } from "react";
+
 
 export default function Home() {
   return (
@@ -14,11 +16,12 @@ export default function Home() {
               <br />É grátis, bora lá?
             </p>
             <Link
-              href="#"
+              href="/quiz"
               className="text-yellow-400 text-base bg-white w-60 px-2 py-6 mx-auto rounded-full mt-3"
             >
               FAZER TESTE VOCACIONAL
             </Link>
+  
           </div>
         </section>
         <section>

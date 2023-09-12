@@ -9,7 +9,7 @@ const open = Open_Sans({ subsets: ['latin'] })
 const noto = Noto_Sans_TC({
   subsets: ['latin'],
   weight: '700'
-})
+}) 
 export const metadata: Metadata = {
   title: 'Vocacional CK',
   description: 'Teste vocacional da Codigo Kid',

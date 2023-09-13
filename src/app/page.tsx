@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Card from "./card/Card.jsx";
+import Card from "./components/card/Card.jsx";
 import { Children } from "react";
 
 

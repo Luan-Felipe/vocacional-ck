@@ -1,5 +1,5 @@
-import ProgressBar from '../progressBar/ProgressBar'
-import Response from '../response/Response'
+import ProgressBar from '../components/progressBar/ProgressBar'
+import Response from '../components/response/Response'
 
 export default function Quiz(){
     return (

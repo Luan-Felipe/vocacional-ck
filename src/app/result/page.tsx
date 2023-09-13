@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Result(){
     return (
         <>
-        <div className='flex justify-center mt-16 mb-40'>  
+        <div className='flex justify-center mt-16 mb-40 flex-wrap'>  
             <div className='mr-20'>
                 <h1 className='text-4xl font-bold text-gray-800'>PARABÉNS</h1>
                 <p className='text-3xl font-normal text-gray-800'>Você valoriza a ascensão profisssional!</p>
